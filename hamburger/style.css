@@ -1,0 +1,24 @@
+img{
+    width: 40px;
+}
+.child>p {
+    background-color: #eee;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.child{
+    display: none;
+}
+#check{
+    display:none;
+    
+}
+input:checked~.child {
+    display: block;
+}
+.parent{
+    cursor: pointer;
+}

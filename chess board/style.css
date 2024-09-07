@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 300px;
+}
+td{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+img{
+    height: 80px;
+    width: 80px;
+}
+table{
+    border: 20px solid aqua;
+}
+.xo1>td:nth-child(even){
+    background-color: black;
+}
+.xo1>td:nth-child(odd){
+    background-color: white;
+}
+.xo2>td:nth-child(even){
+    background-color: white;
+}
+.xo2>td:nth-child(odd){
+    background-color: black;
+
+}
+.xo3>td:nth-child(even){
+    background-color: black;
+}
+.xo3>td:nth-child(odd){
+    background-color: white;
+}
+.xo4>td:nth-child(even){
+    background-color: white;
+}
+.xo4>td:nth-child(odd){
+    background-color: black;
+}
+.xo5>td:nth-child(even){
+    background-color: black;
+}
+.xo5>td:nth-child(odd){
+    background-color: white;
+}
+.xo6>td:nth-child(even){
+    background-color: white;
+}
+.xo6>td:nth-child(odd){
+    background-color: black;
+}
+.xo7>td:nth-child(even){
+    background-color: black;
+}
+.xo7>td:nth-child(odd){
+    background-color: white;
+}
+.xo8>td:nth-child(even){
+    background-color: white;
+}
+.xo8>td:nth-child(odd){
+    background-color: black;
+}
